@@ -1,0 +1,24 @@
+{
+  "name": "qotd",
+  "version": "0.0.1",
+  "description": "quote of the day for Amazon Echo",
+  "main": "qotd.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coyotebringsfire/qotd.git"
+  },
+  "keywords": [
+    "amazon",
+    "echo",
+    "qotd"
+  ],
+  "author": "coyotebringsfire",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coyotebringsfire/qotd/issues"
+  },
+  "homepage": "https://github.com/coyotebringsfire/qotd"
+}
