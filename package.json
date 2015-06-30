@@ -2,8 +2,9 @@
   "name": "qotd",
   "version": "0.0.1",
   "description": "quote of the day for Amazon Echo",
-  "main": "qotd.json",
+  "main": "index.js",
   "scripts": {
+    "zip": "npm install && rm -f qotd.zip && zip -r qotd.zip index.js qotd.json node_modules",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/coyotebringsfire/qotd/issues"
   },
-  "homepage": "https://github.com/coyotebringsfire/qotd"
+  "homepage": "https://github.com/coyotebringsfire/qotd",
+  "dependencies": {
+    "alexa-app": "^2.0.0"
+  }
 }
